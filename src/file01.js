@@ -1,4 +1,9 @@
 /**
+ * @fileoverview Script principal para establecer el título de la página.
+ * @author Genesis Michilena
+ */
+
+/**
  * TO-DO: 
  * Agregue "use strict"; al inicio de su archivo JavaScript para activar el modo estricto.
  * El modo estricto ayuda a detectar errores comunes y mejora la seguridad del código.
@@ -8,15 +13,15 @@
 "use strict";
 
 
-/** 
- * TO-DO: 
+/** * TO-DO: 
  * Importe la función setTitle desde el archivo functions.js.
  * Referencia: https://javascript.info/import-export
+ * * NOTA DE CORRECCIÓN: Se cambió "functions.js" por "./functions.js" para
+ * resolver el error de ruta (importación relativa).
  */
-import {setTitle} from "functions.js";
+import { setTitle } from "./functions.js";
 
-/** 
- * TO-DO: 
+/** * TO-DO: 
  * Asigne a la variable local pageTitle (título de la página) con el valor: "Datos comparativos de frameworks JavaScript modernos"
  * Asigne a la variable local pageId (ID del elemento HTML donde se mostrará el título) con el valor: "title".
  * Referencia: https://javascript.info/variables
